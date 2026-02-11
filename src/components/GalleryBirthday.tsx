@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Heart, Sparkles, Camera } from 'lucide-react';
+import { Heart, Sparkles } from 'lucide-react';
 
 function GalleryBirthday() {
     const [showMessage, setShowMessage] = useState(false);
